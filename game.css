@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("./assets/img/Background-op.png");
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: "Bootle";
+    src: url("./assets/Fonts/bootle.ttf");
+}
+
+@font-face {
+    font-family: "Yellow";
+    src: url("./assets/Fonts/yellow.ttf");
+}
+
+
+
+.episode-title {
+    font-family: "Bootle";
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+    img {
+        height: 250px;
+        margin: auto 50px;
+        box-shadow: 3px 4px 6px 0px rgb(32, 31, 31);
+    }
+    
+    .main {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .episodes-description p {
+        font-family: "Yellow";
+        font-size: 40px;
+        text-align: center;
+        margin-right: 180px;
+    }
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+
+}
+
+#btn-1 {
+        box-shadow: 3px 4px 6px 0px #913549;
+        background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+        background-color:#ededed;
+        border-radius:13px;
+        border:1px solid #d6bcd6;
+        display:inline-block;
+        cursor:pointer;
+        color:rgb(78, 76, 76);
+        font-family:"Yellow";
+        font-size:30px;
+        padding:12px 76px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #e1e2ed;
+    }
+    #btn-1:hover {
+        background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color:#bab1ba;
+    }
+    #btn-1:active {
+        position:relative;
+        top:1px;
+    }
+
+    #btn-2 {
+        box-shadow: 3px 4px 6px 0px blue;
+        background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+        background-color:#ededed;
+        border-radius:13px;
+        border:1px solid #d6bcd6;
+        display:inline-block;
+        cursor:pointer;
+        color:rgb(78, 76, 76);
+        font-family:"Yellow";
+        font-size:30px;
+        padding:12px 76px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #e1e2ed;
+    }
+    #btn-2:hover {
+        background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color:#bab1ba;
+    }
+    #btn-2:active {
+        position:relative;
+        top:1px;
+    }

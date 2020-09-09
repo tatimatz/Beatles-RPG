@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Bootle";
+    src: url("./assets/Fonts/bootle.ttf");
+}
+
+@font-face {
+    font-family: "Yellow";
+    src: url("./assets/Fonts/yellow.ttf");
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  
+  #background::after {
+    content: "";
+    background: url("./assets/img/Background.png");
+    background-size: 100%;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+header {
+    font-family: "Bootle";
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#headline {
+    font-family: "Bootle";
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: black;
+}
+
+#headline > span {
+    font-size: 75px;
+}
+
+header > span {
+    font-size: 120px;
+}
+
+#goal {
+    font-family: "Yellow";
+    font-size: 38px;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgb(36, 34, 34);
+    text-shadow: 0.2em 0.2em 0.1em rgba(0,0,0,0.2);
+}
+
+img {
+    height: 350px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 80px 50px 20px;
+    align-items: center;
+}
+
+footer {
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
