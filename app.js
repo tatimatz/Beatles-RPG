@@ -1,7 +1,6 @@
 import { episodes } from "./episodes.js";
 
 console.log(episodes);
-// D.R.Y !!!
 const currentEpisodeElement = document.getElementById("current-episode");
 
 /**
