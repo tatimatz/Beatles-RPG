@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+body {
+    background: url("./assets/img/Background-op.png");
+    background-size: 100%;
+}
+
 @font-face {
     font-family: "Bootle";
     src: url("./assets/Fonts/bootle.ttf");
@@ -13,26 +18,6 @@
     font-family: "Yellow";
     src: url("./assets/Fonts/yellow.ttf");
 }
-
-#background {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative;
-  }
-  
-  #background::after {
-    content: "";
-    background: url("./assets/img/Background.png");
-    background-size: 100%;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
 
 header {
     font-family: "Bootle";

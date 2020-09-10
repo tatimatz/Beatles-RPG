@@ -19,8 +19,6 @@ body {
     src: url("./assets/Fonts/yellow.ttf");
 }
 
-
-
 .episode-title {
     font-family: "Bootle";
     font-size: 60px;
@@ -36,6 +34,7 @@ body {
     
     .main {
         position: relative;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -51,7 +50,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 30px;
+    height: 280px;
 
 }
 

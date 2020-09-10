@@ -20,7 +20,7 @@ function findNextEpisodeIndex(episodeTitle) {
     return 8;
   }
   if (episodeTitle === "Call Nowhere Man") {
-    return 18;
+    return 17;
   }
 
   for (let i = 0; i < episodes.length; i++) {

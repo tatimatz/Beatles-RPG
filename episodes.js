@@ -139,7 +139,7 @@ export const episodes = [
     title: "Nowhere Man",
     description:
     "Gotcha!! He’s a real nowhere man sitting in his nowhere land, but he’s the capitan’s best buddy! Nowhere man leads Billy Shears way back to the Yellow Submarine!!",
-    image: "Nowhere-man.png",
+    image: "Nowhereman.png",
     audio: "Nowhere.mp3",
   },
 ];
